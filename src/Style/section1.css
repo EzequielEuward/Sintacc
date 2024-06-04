@@ -1,0 +1,54 @@
+.backgroundd {
+    background-color: #FFD166 !important;
+}
+
+.logoo {
+    width: 100px;
+    height: 100px;
+}
+
+.peso {
+    width: 900;
+    font-size: 18px;
+   
+}
+
+.heroBackground {
+    height: 70vh;
+    /* Altura inicial del fondo */
+    background-size: cover;
+    background-position: center;
+}
+
+/* Media query para pantallas más pequeñas */
+@media (max-width: 768px) {
+    .heroBackground {
+        height: 50vh;
+        /* Altura reducida del fondo en pantallas más pequeñas */
+    }
+}
+
+a {
+    font-weight: 700;
+}
+
+.activo {
+    font-weight: bold;
+
+}
+
+.bg-imagen {
+    background-image: url('ruta/de/tu/imagen.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh; /* Ocupa toda la altura de la pantalla */
+    width: 100%; /* Ocupa todo el ancho del contenedor */
+  }
+
+/* Media query para pantallas más pequeñas */
+@media (max-width: 768px) {
+    .bg-imagen {
+        height: 200px;
+        /* Altura reducida del fondo en pantallas más pequeñas */
+    }
+}

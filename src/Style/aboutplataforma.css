@@ -1,0 +1,26 @@
+@media (min-width: 992px) {
+    .col-lg-500 {
+        flex: 0 0 500px;
+        max-width: 500px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .col-xl-550 {
+        flex: 0 0 550px;
+        max-width: 550px;
+    }
+}
+
+.custom-gap {
+    row-gap: 1.5rem;
+    /* gap-6 */
+}
+
+@media (min-width: 992px) {
+    .custom-gap-lg {
+        row-gap: 3rem;
+        /* lg:gap-12 */
+    }
+}
+
