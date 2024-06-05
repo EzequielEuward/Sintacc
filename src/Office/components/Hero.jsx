@@ -3,6 +3,7 @@ import { Button } from "react-bootstrap"
 export const Hero = () => {
   return (
     <section
+    id="home"
       className="position-relative w-100"
       style={{
         height: '100vh',

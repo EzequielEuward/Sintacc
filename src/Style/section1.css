@@ -1,17 +1,18 @@
 .backgroundd {
-    background-color: #FFD166 !important;
+    background-color: rgba(255, 209, 102, 0.7) !important;
+
 }
 
 .logoo {
-    width: 100px;
-    height: 100px;
+    max-width: 100%;
+    height: auto;
+  }
+
+.nav-link {
+    color: #333;
 }
 
-.peso {
-    width: 900;
-    font-size: 18px;
-   
-}
+
 
 .heroBackground {
     height: 70vh;
@@ -29,21 +30,24 @@
 }
 
 a {
-    font-weight: 700;
+    font-weight: 600;
+
 }
 
 .activo {
     font-weight: bold;
-
+    color: #7e4949;
 }
 
 .bg-imagen {
     background-image: url('ruta/de/tu/imagen.jpg');
     background-size: cover;
     background-position: center;
-    height: 100vh; /* Ocupa toda la altura de la pantalla */
-    width: 100%; /* Ocupa todo el ancho del contenedor */
-  }
+    height: 100vh;
+    /* Ocupa toda la altura de la pantalla */
+    width: 100%;
+    /* Ocupa todo el ancho del contenedor */
+}
 
 /* Media query para pantallas más pequeñas */
 @media (max-width: 768px) {

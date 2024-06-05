@@ -1,33 +1,42 @@
-import {CopyFooter} from "./CopyFooter"
-
+import { CopyFooter } from "./CopyFooter"
+import { Link } from "react-router-dom"
+import '../../Style/index.css';
 
 export const ContentFooter = () => {
   return (
     <>
-
-      <footer className="bg-dark text-wite pt-5 pb-4">
-        <div className="container text-center text-s-left">
-          <div className="row text-center text-md-left">
-            <div className="col-md-3 col-lg-4 col-xl-3 mx-auto mt-3">
-              <h5 className="text-uppercase mb-4 font-weight-bold text-warning">SINTACC</h5>
-              <p className="text-white">Este es la primera version del proyecto SINTACC de muestra</p>
+      <footer className="bg-lightgray p-6 md:py-12 w-full">
+        <div className="container">
+          <div className="row">
+            <div className="col-lg-4">
+              <h3 className="font-weight-bold text-dark">SINTACC</h3>
+              <ul className="list-unstyled text-secondary">
+                <li><a href="#" className="text-dark text-decoration-none">Sobre nosotros</a></li>
+                <li><a href="#" className="text-dark text-decoration-none">Nuestro equipo</a></li>
+              </ul>
             </div>
-            <div className="col-md-2 col-lg-2 col-xl-2 mx-aauto mt-3">
-              <h5 className="text-uppercase mb-4 font-weight-bold text-warning">Productos</h5>
-              <p><a href="#" className="text-decoration-none text-success">Productos</a></p>
-              <p><a href="#" className="text-decoration-none text-success">Atencion al cliente</a></p>
+            <div className="col-lg-4">
+              <h3 className="font-weight-bold text-dark">Legal</h3>
+              <ul className="list-unstyled text-secondary">
+                <li><a href="#" className="text-dark text-decoration-none">Políticas de privacidad</a></li>
+                <li><a href="#" className="text-dark text-decoration-none">Términos y condiciones</a></li>
+              </ul>
             </div>
-            <div className="col-md-3 col-lg-2 col-xl-2 mx-auto mt-3">
-              <h5 className="text-uppercase mb-4 font-weight-bold text-warning">Navegacion</h5>
-              <p><a href="#" className="text-decoration-none text-success">Inicio</a></p>
-              <p><a href="#" className="text-decoration-none text-success">Contacto</a></p>
-              <p><a href="#" className="text-decoration-none text-success">Sobre nosotros</a></p>
+            <div className="col-lg-4">
+              <h3 className="font-weight-bold text-dark">Contacto</h3>
+              <ul className="list-unstyled text-secondary">
+                <li><a href="#" className="text-dark text-decoration-none">Soporte</a></li>
+                <li><a href="#" className="text-dark text-decoration-none">Ventas</a></li>
+              </ul>
             </div>
           </div>
         </div>
       </footer>
-      <CopyFooter/>
+
+
+      <CopyFooter />
     </>
+
   )
 }
 
